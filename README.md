@@ -6,19 +6,7 @@
 
 gent-creator 是一个 Codex Skill，提供创建 AI 智能体的完整工作流引导。通过**选项式对话交互**，逐步明确需求、设计框架、选择技术栈、编写规范化代码，最终交付可本地测试的智能体项目。
 
-## 目录结构
 
-`
-.
-├── _validate.py                        # SKILL.md 校验脚本
-├── agent-creator/
-│   ├── SKILL.md                        # 技能主定义文件
-│   ├── agents/
-│   │   └── openai.yaml                 # Agent 界面配置
-│   └── references/
-│       └── tech-selection-guide.md     # 技术选型参考指南
-└── README.md                           # 本文件
-`
 
 ## 核心原则
 
@@ -52,7 +40,8 @@
 
 ## 技术选型覆盖范围
 
-eferences/tech-selection-guide.md 包含以下维度的详细对比与推荐：
+
+eferences/tech-selection-guide.md 包含以下维度的详细对比与推荐：
 
 - **Agent 框架**：原生 SDK / LangChain / LlamaIndex / CrewAI / AutoGen / Dify / Semantic Kernel
 - **LLM 模型**：GPT-4o / Claude / DeepSeek / Gemini / 国内模型 / Ollama 本地部署
